@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab1_2B</string>
+    <string name="button_label_toast">Toast</string>
+    <string name="button_label_count">Count</string>
+    <string name="init_count">0</string>
+    <string name="button_label_zero">Zero</string>
+</resources>
