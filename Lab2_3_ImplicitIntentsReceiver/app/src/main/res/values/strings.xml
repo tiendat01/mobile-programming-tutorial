@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab2_3_ImplicitIntentsReceiver</string>
+
+    <string name="uri_lable">URI: </string>
+</resources>
