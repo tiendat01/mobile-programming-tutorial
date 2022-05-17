@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ShoppinglistApp</string>
+    <string name="btn1">Cake</string>
+    <string name="btn2">Apple</string>
+</resources>

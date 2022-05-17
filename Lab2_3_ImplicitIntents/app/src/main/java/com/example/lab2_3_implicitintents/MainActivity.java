@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Open Website
         edtWebsite = (EditText) findViewById(R.id.edtWebsite);
+        btnOpenWebsite = findViewById(R.id.btnOpenWebsite);
         btnOpenWebsite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Open Location
         edtLocation = (EditText) findViewById(R.id.edtLocation);
+        btnOpenLocation = findViewById(R.id.btnOpenLocation);
         btnOpenLocation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -64,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Share Action
         edtShare = (EditText) findViewById(R.id.edtShare);
+        btnShareText = findViewById(R.id.btnShareText);
         btnShareText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

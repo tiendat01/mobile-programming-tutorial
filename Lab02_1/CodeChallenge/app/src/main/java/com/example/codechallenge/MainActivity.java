@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    // onclick attribute
+    // cach 2: onclick attribute (deprecated)
     public void showText(View view) {
         Intent intent = new Intent(this, SecondActivity.class);
 
