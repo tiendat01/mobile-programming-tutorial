@@ -24,6 +24,7 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         // Receive message from main activity
+        // intent start SecondActivity from MainActivity and its extras data autosaved by Android System
         Intent intent = getIntent(); // from parent activity
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
         //        int count = intent.getIntExtra("count", 0);

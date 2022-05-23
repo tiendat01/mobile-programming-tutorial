@@ -50,20 +50,20 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // restore state
-        if (savedInstanceState != null) {
-            itemStringArray = savedInstanceState.getStringArrayList(ARRAYLIST_KEY);
-            if (itemStringArray != null && itemStringArray.size() > 0){
-                // render textview
-                for (int i = 0; i < itemStringArray.size(); i++) {
-                    if (itemStringArray.size() > 10) {
-                        Toast.makeText(MainActivity.this, "Cannot add more item to the list.", Toast.LENGTH_SHORT).show();
-                        break;
-                    }
-                    textViews[i].setText(itemStringArray.get(i));
-                    textViews[i].setVisibility(View.VISIBLE);
-                }
-            }
-        }
+//        if (savedInstanceState != null) {
+//            itemStringArray = savedInstanceState.getStringArrayList(ARRAYLIST_KEY);
+//            if (itemStringArray != null && itemStringArray.size() > 0){
+//                // render textview
+//                for (int i = 0; i < itemStringArray.size(); i++) {
+//                    if (itemStringArray.size() > 10) {
+//                        Toast.makeText(MainActivity.this, "Cannot add more item to the list.", Toast.LENGTH_SHORT).show();
+//                        break;
+//                    }
+//                    textViews[i].setText(itemStringArray.get(i));
+//                    textViews[i].setVisibility(View.VISIBLE);
+//                }
+//            }
+//        }
 
 
     }

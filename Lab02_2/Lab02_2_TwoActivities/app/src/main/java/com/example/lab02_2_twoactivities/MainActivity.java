@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
         // See onSaveInstanceState() for what gets saved.
         if (savedInstanceState != null) {
             boolean isVisible = savedInstanceState.getBoolean("txtHeader_reply_visible");
+            Log.d(LOG_TAG, "DAMM");
             if (isVisible) {
                 txtHeader.setVisibility(View.VISIBLE);
 
@@ -83,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
 
         if (txtHeader.getVisibility() == View.VISIBLE) {
+            Log.d(LOG_TAG, "CO luu ko????");
             outState.putBoolean("txtHeader_reply_visible", true);
             outState.putString("txtReply_reply_content", txtReply.getText().toString());
         }
@@ -91,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     // callback method to handle with return data from intent request
+    // onRestart() call this
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         // three parameters contain information to handle return data:
