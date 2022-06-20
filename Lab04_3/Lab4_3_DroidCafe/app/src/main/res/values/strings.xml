@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Lab4_3_DroidCafe</string>
+    <string name="droid_desserts">Droid Desserts</string>
+
+    <string name="donuts">Donuts are glazed and sprinkled with candy.</string>
+    <string name="ice_cream_sandwiches">Ice cream sandwiches have chocolate wafers and vanilla filling.</string>
+    <string name="froyo">FroYo is premium self-serve frozen yogurt.</string>
+
+    <string name="donut_order_message">You ordered a donut.</string>
+    <string name="ice_cream_order_message">You ordered an ice cream sandwich.</string>
+    <string name="froyo_order_message">You ordered a FroYo.</string>
+    <string name="floatactionbtn">Order Button</string>
+
+    <string name="same_day_messenger_service">Same day messenger service</string>
+    <string name="next_day_ground_delivery">Next day ground delivery</string>
+    <string name="pick_up">Pick up</string>
+    <string name="action_settings">Setting</string>
+
+    <string-array name="labels_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="action_contact">Contact</string>
+    <string name="action_logout">Log out</string>
+    <string name="action_order">Order</string>
+    <string name="action_status">Status</string>
+    <string name="action_favourites">Favourites</string>
+
+    <string name="action_settings_message">You selected Settings.</string>
+    <string name="action_order_message">You selected Order.</string>
+    <string name="action_status_message">You selected Status.</string>
+    <string name="action_favourites_message">You selected Favourites.</string>
+    <string name="action_contact_message">You selected Contact.</string>
+    <string name="action_logout_message">You selected Log out.</string>
+
+
+</resources>

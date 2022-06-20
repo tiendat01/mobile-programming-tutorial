@@ -30,14 +30,14 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
         txtOrder = findViewById(R.id.txtOrder);
         txtOrder.setText(orderMsg);
 
-        RadioButton defaultCheckedBtn = findViewById(R.id.sameday);
+        RadioButton defaultCheckedBtn = findViewById(R.id.nextday);
         defaultCheckedBtn.setChecked(true);
 
 
         // Create a spinner
         Spinner spinner = findViewById(R.id.spinner);
         if (spinner != null) {
-            spinner.setOnItemSelectedListener(this);
+            spinner.setOnItemSelectedListener(this); // set spinner's listener
         }
 
         // Create ArrayAdapter using string array and default spinner:
@@ -48,7 +48,7 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
         // Specify the layout to use when the list of choices appears.
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
-        // Apply adapter to the spinner
+        // Apply adapter to the spinner ==> adapter gan voi spinner de goi cac callback method handle item chosen from spinner
         if (spinner != null) {
             spinner.setAdapter(adapter);
         }
@@ -83,12 +83,13 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
     }
 
 
-    // Implement method for AdapterView.OnItemSelectedListener to activate the Spinner and its listener
+    // Implement method for interface AdapterView.OnItemSelectedListener to activate the Spinner and its listener
 
+    // implement 2 callback method to handle item chosen from spinner
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
         String spinnerLabel = adapterView.getItemAtPosition(i).toString();
-        displayToast(spinnerLabel);
+        displayToast(spinnerLabel + " (phone)");
     }
 
     @Override

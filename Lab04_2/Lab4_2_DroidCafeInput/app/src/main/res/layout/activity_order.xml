@@ -122,6 +122,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtDelivery">
 
+<!--    RadioButton in the same RadioGroup have the same onClick method handler-->
         <RadioButton
             android:id="@+id/sameday"
             android:layout_width="wrap_content"
@@ -167,3 +168,5 @@ try other input types:
 -->
 
 <!--Combine multiple inputType with | -->
+
+<!--spinner in android is the combo box or drop-down menu -->

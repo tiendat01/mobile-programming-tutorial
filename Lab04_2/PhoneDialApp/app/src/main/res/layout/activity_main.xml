@@ -20,3 +20,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<!--android:imeOptions="action..." : set action to the Next/Done button in keyboard-->

@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public boolean onEditorAction(TextView textView, int actionId, KeyEvent keyEvent) {
                     boolean handled = false;
+                    // implement cac thao tac thuc hien sau khi bam Next/Done button
+                    // "actionSend"
                     if (actionId == EditorInfo.IME_ACTION_SEND) {
                         dialNumber();
                         handled = true;
@@ -41,8 +43,7 @@ public class MainActivity extends AppCompatActivity {
         String phoneNum = null;
         // If the editText field is not null,
         // concatenate "tel: " with the phone number string.
-        if (editText != null) phoneNum = "tel:" +
-                editText.getText().toString();
+        if (editText != null) phoneNum = "tel:" + editText.getText().toString();
         // Optional: Log the concatenated phone number for dialing.
         Log.d(TAG, "dialNumber: " + phoneNum);
         // Specify the internal intent.

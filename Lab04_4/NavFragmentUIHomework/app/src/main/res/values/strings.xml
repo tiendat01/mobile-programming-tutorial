@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NavFragmentUIHomework</string>
+    <string name="gallery">Gallery</string>
+    <string name="tools">Tools</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="nav_name">Navigation Fragment App</string>
+    <string name="txt_content">Your Fragment will be changed here!</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="gallery_fragment">This is gallery fragment</string>
+    <string name="tools_fragment">This is tools fragment</string>
+    <string name="share_fragment">This is share fragment</string>
+    <string name="send_fragment">This is send fragment</string>
+
+</resources>

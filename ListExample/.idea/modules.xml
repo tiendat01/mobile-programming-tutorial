@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ListExample.iml" filepath="$PROJECT_DIR$/.idea/modules/ListExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ListExample.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ListExample.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ListExample.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ListExample.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ListExample.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ListExample.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ListExample.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ListExample.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autocompletetextview/ListExample.autocompletetextview.iml" filepath="$PROJECT_DIR$/.idea/modules/autocompletetextview/ListExample.autocompletetextview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autocompletetextview/ListExample.autocompletetextview.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/autocompletetextview/ListExample.autocompletetextview.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autocompletetextview/ListExample.autocompletetextview.main.iml" filepath="$PROJECT_DIR$/.idea/modules/autocompletetextview/ListExample.autocompletetextview.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autocompletetextview/ListExample.autocompletetextview.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/autocompletetextview/ListExample.autocompletetextview.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gridviewexample/ListExample.gridviewexample.iml" filepath="$PROJECT_DIR$/.idea/modules/gridviewexample/ListExample.gridviewexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gridviewexample/ListExample.gridviewexample.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/gridviewexample/ListExample.gridviewexample.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gridviewexample/ListExample.gridviewexample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gridviewexample/ListExample.gridviewexample.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gridviewexample/ListExample.gridviewexample.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/gridviewexample/ListExample.gridviewexample.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/listviewexample/ListExample.listviewexample.iml" filepath="$PROJECT_DIR$/.idea/modules/listviewexample/ListExample.listviewexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/listviewexample/ListExample.listviewexample.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/listviewexample/ListExample.listviewexample.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/listviewexample/ListExample.listviewexample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/listviewexample/ListExample.listviewexample.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/listviewexample/ListExample.listviewexample.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/listviewexample/ListExample.listviewexample.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spinnerexample/ListExample.spinnerexample.iml" filepath="$PROJECT_DIR$/.idea/modules/spinnerexample/ListExample.spinnerexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spinnerexample/ListExample.spinnerexample.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/spinnerexample/ListExample.spinnerexample.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spinnerexample/ListExample.spinnerexample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spinnerexample/ListExample.spinnerexample.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spinnerexample/ListExample.spinnerexample.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/spinnerexample/ListExample.spinnerexample.unitTest.iml" />
+    </modules>
+  </component>
+</project>
